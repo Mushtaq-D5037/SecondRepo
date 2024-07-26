@@ -1,0 +1,16 @@
+Git Structure
+working directory --> staging --> repo --> GitHub
+
+
+- To Initialize - git init
+- To check commit status - git status
+- To check current branch - git branch
+- To add to staging - git add <filename1> <filename2> or 
+  if you want to stage all the files in a folder - git add .
+- To commit - git commit -m "<commit_msg>"
+- To create branch - git branch <branch_name>
+- To delete branch - git branch -d <branch_name>
+- To save your work temporary - git stash
+- To switch to branch: git switch <branch_name> or git checkout <branch_name>
+- To ignore files that you don't want to commit or push: gitignore
+- To keep files: gitkeep
