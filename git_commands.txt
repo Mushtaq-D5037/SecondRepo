@@ -15,3 +15,4 @@ working directory --> staging --> repo --> GitHub
 - To switch to branch: git switch <branch_name> or git checkout <branch_name>
 - To ignore files that you don't want to commit or push: gitignore
 - To keep files: gitkeep
+- To merge branch: git merge <branch_name>
