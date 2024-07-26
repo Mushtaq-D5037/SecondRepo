@@ -11,8 +11,8 @@ working directory --> staging --> repo --> GitHub
 - To commit - git commit -m "<commit_msg>"
 - To create branch - git branch <branch_name>
 - To delete branch - git branch -d <branch_name>
-- To save your work temporary - git stash
+- To merge branch: git merge <branch_name>
 - To switch to branch: git switch <branch_name> or git checkout <branch_name>
+- To save your work temporary - git stash
 - To ignore files that you don't want to commit or push: gitignore
 - To keep files: gitkeep
-- To merge branch: git merge <branch_name>
