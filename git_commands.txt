@@ -16,3 +16,8 @@ working directory --> staging --> repo --> GitHub
 - To save your work temporary - git stash
 - To ignore files that you don't want to commit or push: gitignore
 - To keep files: gitkeep
+<<<<<<< HEAD
+=======
+- To merge branch: git merge <branch_name>
+- To check log/commits : git log or git log --oneline
+>>>>>>> dev
