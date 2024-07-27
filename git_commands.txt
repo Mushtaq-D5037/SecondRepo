@@ -26,4 +26,7 @@ working directory --> staging --> repo --> GitHub
 - To check log/commits : git log or git log --oneline
 - Temp 1
 - Temp 2
+- Temp M3
+- Temp M4
+- Temp M5
 
