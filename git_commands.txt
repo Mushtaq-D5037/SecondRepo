@@ -1,8 +1,8 @@
 Git Structure
 working directory --> staging --> repo --> GitHub
 
-- To set global useremail: git --config global user.email "<your_eamil@.com>"
-  username: git --config global user.name "<your_name>"
+- To set global useremail: git config --global user.email "<your_eamil@.com>"
+  username: git config --global user.name "<your_name>"
 - To Initialize - git init
 - To check commit status - git status
 - To check current branch - git branch
