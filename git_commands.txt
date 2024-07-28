@@ -24,12 +24,6 @@ working directory --> staging --> repo --> GitHub
 - To keep files: gitkeep
 - To merge branch: git merge <branch_name>
 - To check log/commits : git log or git log --oneline
-- Temp 1
-- Temp 2
-- Temp M3
-- Temp M4
-- Temp M5
-- Temp 3 
-- Temp 4
+
 
 
