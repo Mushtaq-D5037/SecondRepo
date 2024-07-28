@@ -28,7 +28,6 @@ working directory --> staging --> repo --> GitHub
 - To merge branch with commit message: git merge -m "<msg>" <branch_name>
 - To check log/commits : git log or git log --oneline
 
-- I want to swithc to main branch without commiting changes in dev branch.
 
 
 
