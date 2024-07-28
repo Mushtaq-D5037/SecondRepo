@@ -27,8 +27,7 @@ working directory --> staging --> repo --> GitHub
 - To merge branch: git merge <branch_name>
 - To merge branch with commit message: git merge -m "<msg>" <branch_name>
 - To check log/commits : git log or git log --oneline
-- GitPAT : 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
-- repo url: https://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@github.com/Mushtaq-D5037/FirstRepo.git
+
 
 
 
