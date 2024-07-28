@@ -28,9 +28,18 @@ working directory --> staging --> repo --> GitHub
 - To merge branch with commit message: git merge -m "<msg>" <branch_name>
 - To check log/commits : git log or git log --oneline
 - GitPAT : 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
-- repo url: https://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@github.com/Mushtaq-D5037/FirstRepo.git
+- repo url: https://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@github.com/Mushtaq-D5037/SecondRepo.git
+- To check remote connection: git remote -v
 
+- To add remote git url: git remote add <some_name_you_want_to_give_to_remote_url> <git_url>
+  - example: git remote add origin  https://github.com/Mushtaq-D5037/SecondRepo.git
+  - origin is the common name given to remote url
 
+- To remove remote url: git remote remove <remote_url_name> 
+  - example: git remote remove origin
+
+- To setup upstream: git remote add upstream <remote-url>
+- To push code: git push -u origin main
 
 
 
