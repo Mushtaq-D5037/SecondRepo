@@ -10,7 +10,7 @@ str4 = 'aa,bb,cc,dd,bb,cc,bb,cc,aa,dd'
 # use count method of string to count the elements in a string
 # before that separate the string elements (note check whether string has spaces, comma etc.,)
 # use __contains__ method of string to check the separator
-def count_letters(): 
+def count_frequecny(): 
 
     str = input("enter string:")
 
@@ -41,5 +41,35 @@ def count_letters():
     # printing
     print(d)
 
-count_letters()
+count_frequecny()
+
+# Approach 2:
+# using empty dictionary
+
+def count_freq2():
+    str = input('enter string:')
+
+    # checking if the string has spaces
+    # and splitting into list
+    if str.__contains__(' ')==False:
+        str_list =  [ l for l in str]
+    else:
+        str_list = str.split()
+
+    # taking empty dictionary
+    d = {}
+
+    for i in str_list:
+        # checking if word in a list is a key
+        # if not, adding that word as key to the dictionary and assigning 0 as a value
+        # if it is, appending the value of that key
+        if i not in d.keys():
+            d[i]=0
+
+        d[i]+=1
+
+    print(d)
+
+count_freq2()
+
 
