@@ -23,6 +23,7 @@ working directory --> staging --> repo --> GitHub
 - To ignore files that you don't want to commit or push: gitignore
 - To keep files: gitkeep
 - To merge branch: git merge <branch_name>
+- To merge branch with commit message: git merge -m "<msg>" <branch_name>
 - To check log/commits : git log or git log --oneline
 
 
