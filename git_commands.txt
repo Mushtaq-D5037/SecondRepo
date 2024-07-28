@@ -19,6 +19,8 @@ working directory --> staging --> repo --> GitHub
 - To delete branch - git branch -d <branch_name>
 - To merge branch: git merge <branch_name>
 - To switch to branch: git switch <branch_name> or git checkout <branch_name>
+  - If you switch branch without commiting changes in dev branch, the changes will reflect in main branch
+  
 - To save your work temporary - git stash
 - To ignore files that you don't want to commit or push: gitignore
 - To keep files: gitkeep
