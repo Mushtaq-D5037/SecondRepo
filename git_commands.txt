@@ -41,6 +41,11 @@ working directory --> staging --> repo --> GitHub
 
 - To push code: git push -u origin main
 
+- while pulling, command: git pull origin main. if you get below error
+  Error: refusing to merge unrelated histories
+  use this command: git pull origin main --allow-unrelated-histories
+
+
 
 
 
